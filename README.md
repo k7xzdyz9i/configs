@@ -1,19 +1,17 @@
-# Configs
+# configs
 
-Personal configuration files and setup notes.
+Personal configuration files and environment setup notes.
 
 ## Contents
 
-- `dotfiles/` – shell, editor, and tool configs
-- `scripts/` – small utilities for everyday tasks
-- `docs/` – setup guides and environment notes
+- `dotfiles/` – shell, git, and editor configs
+- `scripts/` – small utility scripts for workflow automation
+- `notes/` – setup guides and troubleshooting
 
 ## Usage
 
-Clone and symlink what you need:
+Clone and symlink or copy what you need. Each subfolder has its own README.
 
-```bash
-ln -s ~/configs/dotfiles/.bashrc ~/.bashrc
-```
+## Last updated
 
-See `docs/` for per-tool instructions.
+2026-08-14
